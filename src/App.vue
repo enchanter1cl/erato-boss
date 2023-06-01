@@ -35,6 +35,9 @@
             </template>
             <el-menu-item-group>
               <el-menu-item index="/swiper"><el-icon><Picture /></el-icon>轮播图配置</el-menu-item>
+              <el-menu-item index="/hot"><el-icon><StarFilled /></el-icon>热销商品配置</el-menu-item>
+              <el-menu-item index="/new"><el-icon><StarFilled /></el-icon>新上线配置</el-menu-item>
+              <el-menu-item index="/recommend"><el-icon><StarFilled /></el-icon>为你推荐配置</el-menu-item>
             </el-menu-item-group>
           </el-sub-menu>
 
@@ -62,6 +65,7 @@
 
 <script setup>
 import {localGet} from "@/utls";
+import {StarFilled} from "@element-plus/icons-vue";
 import path from "path";
 import {reactive} from "vue";
 import {useRouter} from "vue-router";
