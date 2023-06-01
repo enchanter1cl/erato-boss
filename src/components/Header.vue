@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import {pathMap} from "@/utls";
+import {pathMap} from "@/utils";
 import {reactive} from "vue";
 import {useRouter} from "vue-router";
 

@@ -69,7 +69,7 @@
 </template>
 
 <script setup>
-import axios from "@/utls/axios";
+import axios from "@/utils/axios";
 import {onMounted, onUnmounted, reactive} from "vue";
 import {useRoute, useRouter} from "vue-router";
 

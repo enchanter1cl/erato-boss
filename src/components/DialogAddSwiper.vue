@@ -39,8 +39,8 @@
 </template>
 
 <script setup>
-import {localGet, uploadImgServer} from "@/utls";
-import axios from "@/utls/axios";
+import {localGet, uploadImgServer} from "@/utils";
+import axios from "@/utils/axios";
 import {ElMessage} from "element-plus";
 import {reactive, ref} from "vue";
 

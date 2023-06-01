@@ -1,5 +1,5 @@
 import router from "@/router";
-import {localGet} from "@/utls/index";
+import {localGet} from "@/utils/index";
 import axios from 'axios'
 import {ElMessage} from "element-plus";
 import config from "~/config";

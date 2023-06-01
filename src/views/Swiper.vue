@@ -58,7 +58,7 @@
 
 <script setup>
 import DialogAddSwiper from "@/components/DialogAddSwiper.vue";
-import axios from "@/utls/axios";
+import axios from "@/utils/axios";
 import {onMounted, reactive, ref} from "vue";
 
 //35

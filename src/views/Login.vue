@@ -30,8 +30,8 @@
 </template>
 
 <script setup>
-import {localSet} from "@/utls";
-import axios from "@/utls/axios";
+import {localSet} from "@/utils";
+import axios from "@/utils/axios";
 import {reactive, ref, toRefs} from "vue";
 import md5 from 'js-md5'
 

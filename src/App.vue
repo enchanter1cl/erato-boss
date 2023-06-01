@@ -64,7 +64,7 @@
 </template>
 
 <script setup>
-import {localGet} from "@/utls";
+import {localGet} from "@/utils";
 import {StarFilled} from "@element-plus/icons-vue";
 import path from "path";
 import {reactive} from "vue";
